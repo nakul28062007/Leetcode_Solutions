@@ -71,5 +71,5 @@ Feel free to:
 
 ## 📬 Contact
 If you’d like to discuss problems or collaborate:  
-📧 **your.email@example.com**  
+📧 **nakul.thanigai@gmail.com**  
 💻 [GitHub Profile](https://github.com/nakul28062007)
