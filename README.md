@@ -12,16 +12,16 @@ Leetcode_solutions/
 │
 ├── Easy/
 │   ├── Two_Sum.java
-│   ├── Palindrome_Number.py
+│   ├── ...
 │   └── ...
 │
 ├── Medium/
 │   ├── Add_Two_Numbers.java
-│   ├── Longest_Substring_Without_Repeating_Characters.py
+│   ├── ...
 │   └── ...
 │
 ├── Hard/
-│   ├── Median_of_Two_Sorted_Arrays.java
+│   ├── ...
 │   └── ...
 │
 └── README.md
