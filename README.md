@@ -81,4 +81,4 @@ Feel free to:
 If you’d like to discuss problems or collaborate:
 📧 [nakul.thanigai@mail.com
 ]
-💻 [github.com/nakul28062007]
+💻 [github.com/nakul28062007/]
