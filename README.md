@@ -13,9 +13,12 @@ Leetcode_solutions/
 ├── Easy/
 │   ├── Two_Sum.java
 │   ├── Palindrome Number.java
-│   └── Roman to Number conversion.java
-    └── ...
-    └── ...
+│   ├── Two_Sum.java
+│   ├── Roman to Number conversion.java
+│   ├── Valid Paranthesis.java
+│   ├── Merge Sorted List.java
+│   ├── Remove Duplicates From Sorted Array.java
+│   ├── 
 │
 ├── Medium/
 │   ├── Add_Two_Numbers.java
