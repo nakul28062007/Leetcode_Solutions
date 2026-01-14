@@ -19,7 +19,7 @@ Leetcode_solutions/
 │   ├── Merge Sorted List.java
 │   ├── Remove Duplicates From Sorted Array.java
 │   ├── LC28_FindIndexOfTheFIrstOccurenceInAString.java
-│   ├──LC35_SearchInsertPosition.java
+│   ├── LC35_SearchInsertPosition.java
 │   ├── 
 │
 ├── Medium/
