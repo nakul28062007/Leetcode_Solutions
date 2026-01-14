@@ -20,6 +20,8 @@ Leetcode_solutions/
 │   ├── Remove Duplicates From Sorted Array.java
 │   ├── LC28_FindIndexOfTheFIrstOccurenceInAString.java
 │   ├── LC35_SearchInsertPosition.java
+│   ├── LC58_LengthOfTheLastWord.java
+│   ├── 
 │   ├── 
 │
 ├── Medium/
