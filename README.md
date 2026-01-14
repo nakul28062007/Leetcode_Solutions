@@ -18,6 +18,8 @@ Leetcode_solutions/
 │   ├── Valid Paranthesis.java
 │   ├── Merge Sorted List.java
 │   ├── Remove Duplicates From Sorted Array.java
+│   ├── LC28_FindIndexOfTheFIrstOccurenceInAString.java
+│   ├──LC35_SearchInsertPosition.java
 │   ├── 
 │
 ├── Medium/
