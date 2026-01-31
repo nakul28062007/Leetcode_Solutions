@@ -21,8 +21,18 @@ Leetcode_solutions/
 │   ├── LC28_FindIndexOfTheFIrstOccurenceInAString.java
 │   ├── LC35_SearchInsertPosition.java
 │   ├── LC58_LengthOfTheLastWord.java
+│   ├── LC66_PlusOne.java
+│   ├── LC67_AddBinary.java
+│   ├── LC69_SqrtOfx.java
+│   ├── LC70_ClimbingStairs.java
+│   ├── LC83_RemoveDuplicatesFromSortedList.java
+│   ├── LC88_MergeSortedArray.java
 │   ├── 
 │   ├── 
+│   ├── 
+│   ├── 
+│   ├── 
+│
 │
 ├── Medium/
 │   ├── Add_Two_Numbers.java
