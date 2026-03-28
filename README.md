@@ -91,8 +91,8 @@ For every solved problem:
 
 ## 📬 Contact
 
-📧 **[nakul.thanigai@gmail.com](mailto:nakul.thanigai@gmail.com)**
-💻 **https://github.com/nakul28062007**
+📧 **[nakul.thanigai@gmail.com](mailto:nakul.thanigai@gmail.com)**<br>
+💻 https://github.com/nakul28062007
 
 ---
 
