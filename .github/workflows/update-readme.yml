@@ -1,0 +1,43 @@
+name: Update LeetCode Stats
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 0 * * *" # runs daily
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Count problems
+        run: |
+          EASY=$(find easy -name "*.java" | wc -l)
+          MEDIUM=$(find medium -name "*.java" | wc -l)
+          HARD=$(find hard -name "*.java" | wc -l)
+          TOTAL=$((EASY + MEDIUM + HARD))
+
+          echo "EASY=$EASY" >> $GITHUB_ENV
+          echo "MEDIUM=$MEDIUM" >> $GITHUB_ENV
+          echo "HARD=$HARD" >> $GITHUB_ENV
+          echo "TOTAL=$TOTAL" >> $GITHUB_ENV
+
+      - name: Update README
+        run: |
+          sed -i "s|Easy: .*|Easy: $EASY|g" README.md
+          sed -i "s|Medium: .*|Medium: $MEDIUM|g" README.md
+          sed -i "s|Hard: .*|Hard: $HARD|g" README.md
+          sed -i "s|Total: .*|Total: $TOTAL|g" README.md
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add README.md
+          git commit -m "Auto update problem count" || echo "No changes"
+          git push
