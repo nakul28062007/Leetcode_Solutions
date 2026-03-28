@@ -1,3 +1,7 @@
+![Java](https://img.shields.io/badge/Language-Java-orange)
+![DSA](https://img.shields.io/badge/Focus-Data%20Structures%20%26%20Algorithms-blue)
+![LeetCode](https://img.shields.io/badge/Platform-LeetCode-yellow)
+![Status](https://img.shields.io/badge/Progress-Active-brightgreen)
 # 🧩 LeetCode Solutions
 
 Welcome to my **LeetCode Solutions Repository** 🚀
