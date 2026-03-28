@@ -46,7 +46,6 @@ LC<Number>_<ProblemName>.java
 ## 💡 Languages Used
 
 * Java ☕
-  *(More languages may be added in future)*
 
 ---
 
