@@ -4,8 +4,9 @@ on:
   push:
     branches:
       - main
-  schedule:
-    - cron: "0 0 * * *" # runs daily
+
+permissions:
+  contents: write
 
 jobs:
   update-readme:
@@ -29,10 +30,10 @@ jobs:
 
       - name: Update README
         run: |
-          sed -i "s|Easy: .*|Easy: $EASY|g" README.md
-          sed -i "s|Medium: .*|Medium: $MEDIUM|g" README.md
-          sed -i "s|Hard: .*|Hard: $HARD|g" README.md
-          sed -i "s|Total: .*|Total: $TOTAL|g" README.md
+          sed -i "s/Easy:.*/Easy: $EASY/" README.md
+          sed -i "s/Medium:.*/Medium: $MEDIUM/" README.md
+          sed -i "s/Hard:.*/Hard: $HARD/" README.md
+          sed -i "s/Total:.*/Total: $TOTAL/" README.md
 
       - name: Commit changes
         run: |
