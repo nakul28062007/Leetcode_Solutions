@@ -1,0 +1,56 @@
+<html>
+<head>
+<title>LC28_FindIndexOfTheFIrstOccurenceInAString.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cf8e6d;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bcbec4;}
+.s3 { color: #2aacb8;}
+.s4 { color: #7a7e85;}
+.s5 { color: #6aab73;}
+</style>
+</head>
+<body bgcolor="#191a1c">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+LC28_FindIndexOfTheFIrstOccurenceInAString.java</font>
+</center></td></tr></table>
+<pre><span class="s0">package </span><span class="s1">leetcode</span><span class="s2">.</span><span class="s1">easy</span><span class="s2">;</span>
+
+<span class="s0">public class </span><span class="s1">LC28_FindIndexOfTheFIrstOccurenceInAString </span><span class="s2">{</span>
+    <span class="s0">static class </span><span class="s1">Solution </span><span class="s2">{</span>
+        <span class="s0">public int </span><span class="s1">strStr</span><span class="s2">(</span><span class="s1">String haystack</span><span class="s2">, </span><span class="s1">String needle</span><span class="s2">) {</span>
+            <span class="s0">int </span><span class="s1">n </span><span class="s2">= </span><span class="s1">haystack</span><span class="s2">.</span><span class="s1">length</span><span class="s2">();</span>
+            <span class="s0">int </span><span class="s1">m </span><span class="s2">= </span><span class="s1">needle</span><span class="s2">.</span><span class="s1">length</span><span class="s2">();</span>
+            <span class="s0">if</span><span class="s2">(</span><span class="s1">m</span><span class="s2">&gt;</span><span class="s1">n</span><span class="s2">){</span>
+                <span class="s0">return </span><span class="s2">-</span><span class="s3">1</span><span class="s2">;</span>
+            <span class="s2">}</span>
+            <span class="s0">else</span><span class="s2">{</span>
+                <span class="s0">for</span><span class="s2">(</span><span class="s0">int </span><span class="s1">i </span><span class="s2">= </span><span class="s3">0 </span><span class="s2">; </span><span class="s1">i</span><span class="s2">&lt;= </span><span class="s1">n</span><span class="s2">-</span><span class="s1">m </span><span class="s2">;</span><span class="s1">i</span><span class="s2">++){</span>
+                    <span class="s0">int </span><span class="s1">j </span><span class="s2">= </span><span class="s3">0 </span><span class="s2">;</span>
+
+                    <span class="s0">while</span><span class="s2">(</span><span class="s1">j</span><span class="s2">&lt;</span><span class="s1">m </span><span class="s2">&amp;&amp; </span><span class="s1">haystack</span><span class="s2">.</span><span class="s1">charAt</span><span class="s2">(</span><span class="s1">i</span><span class="s2">+</span><span class="s1">j</span><span class="s2">)==</span><span class="s1">needle</span><span class="s2">.</span><span class="s1">charAt</span><span class="s2">(</span><span class="s1">j</span><span class="s2">)){</span>
+                        <span class="s1">j</span><span class="s2">++;</span>
+                    <span class="s2">}</span>
+                     <span class="s0">if</span><span class="s2">(</span><span class="s1">j</span><span class="s2">==</span><span class="s1">m</span><span class="s2">){</span>
+                         <span class="s0">return </span><span class="s1">i</span><span class="s2">;</span>
+                     <span class="s2">}</span>
+                <span class="s2">}</span>
+            <span class="s2">}</span>
+
+            <span class="s4">//No match found</span>
+            <span class="s0">return </span><span class="s2">-</span><span class="s3">1</span><span class="s2">;</span>
+        <span class="s2">}</span>
+    <span class="s2">}</span>
+     <span class="s0">public static void </span><span class="s1">main</span><span class="s2">(</span><span class="s1">String</span><span class="s2">[] </span><span class="s1">args</span><span class="s2">){</span>
+        <span class="s1">Solution obj </span><span class="s2">= </span><span class="s0">new </span><span class="s1">Solution</span><span class="s2">();</span>
+        <span class="s0">int </span><span class="s1">ans </span><span class="s2">= </span><span class="s1">obj</span><span class="s2">.</span><span class="s1">strStr</span><span class="s2">(</span><span class="s5">&quot;sadbutsad&quot;</span><span class="s2">,</span><span class="s5">&quot;sad&quot;</span><span class="s2">);</span>
+         <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s5">&quot;Anser is: &quot;</span><span class="s2">+</span><span class="s1">ans</span><span class="s2">);</span>
+     <span class="s2">}</span>
+
+<span class="s2">}</span>
+</pre>
+</body>
+</html>
