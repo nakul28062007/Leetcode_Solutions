@@ -1,94 +1,100 @@
-# 🧩 Leetcode Solutions
+# 🧩 LeetCode Solutions
 
-Welcome to **Leetcode_solutions** — a collection of my solutions to various [LeetCode](https://leetcode.com/) problems, written for learning, practice, and reference.
-
-This repository serves as a personal record of my problem-solving journey in data structures, algorithms, and coding interview preparation.
+Welcome to my **LeetCode Solutions Repository** 🚀
+This repo tracks my journey in **Data Structures & Algorithms** and coding interview preparation.
 
 ---
 
-## 🗂️ Repository Structure
-<pre>
-Leetcode_solutions/
+## 📊 Progress Tracker
+
+* ✅ Easy: 15+
+* 🟡 Medium: In Progress
+* 🔴 Hard: Coming Soon
+
+---
+
+## 🗂️ Folder Structure
+
+```
+Leetcode_Solutions/
 │
-├── Easy/
-│   ├── Two_Sum.java
-│   ├── Palindrome Number.java
-│   ├── Two_Sum.java
-│   ├── Roman to Number conversion.java
-│   ├── Valid Paranthesis.java
-│   ├── Merge Sorted List.java
-│   ├── Remove Duplicates From Sorted Array.java
-│   ├── LC28_FindIndexOfTheFIrstOccurenceInAString.java
-│   ├── LC35_SearchInsertPosition.java
-│   ├── LC58_LengthOfTheLastWord.java
-│   ├── LC66_PlusOne.java
-│   ├── LC67_AddBinary.java
-│   ├── LC69_SqrtOfx.java
-│   ├── LC70_ClimbingStairs.java
-│   ├── LC83_RemoveDuplicatesFromSortedList.java
-│   ├── LC88_MergeSortedArray.java
-│   ├── LC3827_CountMonobitIntegers.java
-│   ├── 
-│   ├── 
-│   ├── 
-│   ├── 
-│
-│
-├── Medium/
-│   ├── Add_Two_Numbers.java
-│   ├── ...
-│   └── ...
-│
-├── Hard/
-│   ├── ...
-│   └── ...
-│
-└── README.md
-</pre>
+├── easy/
+├── medium/
+├── hard/
+```
+
+> Each folder contains solutions categorized by difficulty.
+
+---
+
+## 🧠 Naming Convention
+
+All files follow a consistent format:
+
+```
+LC<Number>_<ProblemName>.java
+```
+
+### Example:
+
+* `LC1_TwoSum.java`
+* `LC70_ClimbingStairs.java`
+* `LC21_MergeTwoLists.java`
+
 ---
 
 ## 💡 Languages Used
-- **Java** ☕  
-- **Python** 🐍  
-- *(More languages may be added over time)*
+
+* Java ☕
+  *(More languages may be added in future)*
 
 ---
 
-## 🧠 Problem-Solving Approach
-Each solution includes:
-- **Clear, optimized code**
-- **Comments** explaining logic and time complexity
-- Occasional **alternative methods** or improvements
+## 🧠 Topics Covered
+
+* Arrays & Strings
+* Linked Lists
+* Recursion & Backtracking
+* Dynamic Programming
+* Trees & Graphs
+* Sorting & Searching
+* Stack, Queue, HashMap
 
 ---
 
-## ⚙️ Topics Covered
-- Arrays and Strings  
-- Linked Lists  
-- Recursion and Backtracking  
-- Dynamic Programming  
-- Trees and Graphs  
-- Sorting and Searching  
-- Stack, Queue, and HashMap problems  
+## ⚙️ Approach
+
+Each solution focuses on:
+
+* Clean and readable code
+* Optimized logic
+* Understanding core concepts
 
 ---
 
-## 🏆 Goals
-- Strengthen my DSA and coding interview skills  
-- Maintain a well-organized and readable set of solutions  
-- Help others learn and understand different problem-solving patterns  
+## 🎯 Goals
+
+* Strengthen problem-solving skills
+* Prepare for coding interviews
+* Maintain consistency in daily practice
 
 ---
 
-## 🤝 Contributions
-Feel free to:
-- ⭐ Star the repo if you find it useful  
-- 🐛 Open an issue for errors or better approaches  
-- 💡 Submit pull requests with alternative or improved solutions  
+## 🚀 Workflow
+
+For every solved problem:
+
+1. Add solution file to appropriate folder
+2. Commit with clear message
+3. Push to GitHub
 
 ---
 
 ## 📬 Contact
-If you’d like to discuss problems or collaborate:  
-📧 **nakul.thanigai@gmail.com**  
-💻 [GitHub Profile](https://github.com/nakul28062007)
+
+📧 **[nakul.thanigai@gmail.com](mailto:nakul.thanigai@gmail.com)**
+💻 https://github.com/nakul28062007
+
+---
+
+⭐ If you find this useful, feel free to star the repo!
