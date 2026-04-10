@@ -15,7 +15,7 @@ public class LC27_RemoveElement {
             return k;
         }
 
-        static void main() {
+        public static void main(String[] args) {
             Solution obj = new Solution();
             int[] nums = new int[4];
             nums[0]=3;
