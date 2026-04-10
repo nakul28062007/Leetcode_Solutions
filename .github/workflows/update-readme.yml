@@ -18,9 +18,9 @@ jobs:
 
       - name: Count problems
         run: |
-          EASY=$(find easy -name "*.java" | wc -l)
-          MEDIUM=$(find medium -name "*.java" | wc -l)
-          HARD=$(find hard -name "*.java" | wc -l)
+          EASY=$(find src/leetcode/easy -name "*.java" | wc -l)
+          MEDIUM=$(find src/leetcode/medium -name "*.java" | wc -l)
+          HARD=$(find src/leetcode/hard -name "*.java" | wc -l)
           TOTAL=$((EASY + MEDIUM + HARD))
 
           echo "EASY=$EASY" >> $GITHUB_ENV
