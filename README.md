@@ -97,7 +97,7 @@ For every solved problem:
 
 ## 📬 Contact
 
-📧 **[nakul.thanigai@gmail.com](mailto:nakul.thanigai@gmail.com)**<br>
+📧 **[nakul.thanigai@gmail.com](mailto:nt5493@srmist.edu.in)**<br>
 💻 https://github.com/nakul28062007
 
 ---
