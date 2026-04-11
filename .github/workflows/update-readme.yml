@@ -1,11 +1,43 @@
-- name: Count problems
-  run: |
-    EASY=$(find src/leetcode/easy -name "*.java" | wc -l)
-    MEDIUM=$(find src/leetcode/medium -name "*.java" | wc -l 2>/dev/null || echo 0)
-    HARD=$(find src/leetcode/hard -name "*.java" | wc -l 2>/dev/null || echo 0)
-    TOTAL=$((EASY + MEDIUM + HARD))
+cat > .github/workflows/update-readme.yml << 'EOF'
+name: Update README
 
-    echo "EASY=$EASY" >> $GITHUB_ENV
-    echo "MEDIUM=$MEDIUM" >> $GITHUB_ENV
-    echo "HARD=$HARD" >> $GITHUB_ENV
-    echo "TOTAL=$TOTAL" >> $GITHUB_ENV
+on:
+  push:
+    branches: [main]
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Count problems
+        run: |
+          EASY=$(find src/leetcode/easy -name "*.java" | wc -l)
+          MEDIUM=$(find src/leetcode/medium -name "*.java" 2>/dev/null | wc -l || echo 0)
+          HARD=$(find src/leetcode/hard -name "*.java" 2>/dev/null | wc -l || echo 0)
+          TOTAL=$((EASY + MEDIUM + HARD))
+          echo "EASY=$EASY" >> $GITHUB_ENV
+          echo "MEDIUM=$MEDIUM" >> $GITHUB_ENV
+          echo "HARD=$HARD" >> $GITHUB_ENV
+          echo "TOTAL=$TOTAL" >> $GITHUB_ENV
+
+      - name: Update README
+        run: |
+          sed -i "s/Easy: [0-9]*/Easy: $EASY/" README.md
+          sed -i "s/Medium: [0-9]*/Medium: $MEDIUM/" README.md
+          sed -i "s/Hard: [0-9]*/Hard: $HARD/" README.md
+          sed -i "s/Total: [0-9]*/Total: $TOTAL/" README.md
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "Update README counts"
+          git push
+EOF
