@@ -12,10 +12,10 @@ This repo tracks my journey in **Data Structures & Algorithms** and coding inter
 ## 📊 Progress Tracker
 |Solved |
 |--------|
-| Easy: 36
+| Easy: 37
 | Medium: 0
 | Hard: 0
-| Total: 36
+| Total: 37
 
 ---
 
