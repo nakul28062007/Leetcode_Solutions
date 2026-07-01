@@ -19,6 +19,6 @@ public class LC171_ExcelColumnTitle {
 
     static void main() {
         Solution obj = new Solution();
-        System.out.println("Answer: "+ obj.titleToNumber("FXSHRXW"));
+        System.out.println("Answer: "+ obj.titleToNumber("ABB"));
     }
 }

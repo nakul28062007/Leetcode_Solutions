@@ -15,6 +15,6 @@ public class LC168_ExcelSheetColoumnTitle {
 
     static void main() {
         Solution obj = new Solution();
-        System.out.println("Answer: "+obj.convertToTitle(78));
+        System.out.println("Answer: "+obj.convertToTitle(2147483647));
     }
 }
