@@ -13,9 +13,9 @@ This repo tracks my journey in **Data Structures & Algorithms** and coding inter
 |Solved |
 |--------|
 | Easy: 48
-| Medium: 2
+| Medium: 3
 | Hard: 0
-| Total: 50
+| Total: 51
 
 ---
 
