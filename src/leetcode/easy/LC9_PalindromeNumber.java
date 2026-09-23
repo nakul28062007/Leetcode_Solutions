@@ -1,7 +1,5 @@
 package leetcode.easy;
 
-import leetcode.medium.LC7_ReverseInteger;
-
 public class LC9_PalindromeNumber {
     static class Solution {
         public boolean isPalindrome(int x) {
